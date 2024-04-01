@@ -13,6 +13,7 @@
     <div class="ww">
       <div class="box">大大</div>
       <div class="box">小小</div>
+      <span>白日依山尽</span>
     </div>
   </div>
 </template>

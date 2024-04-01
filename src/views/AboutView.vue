@@ -5,11 +5,11 @@
         start-placeholder="开始日期" end-placeholder="结束日期">
       </el-date-picker>
     </div>
-    <div class="range">
+    <!-- <div class="range">
       <el-date-picker v-model="showTabTime2" type="datetimerange" valueFormat="yyyy-MM-dd HH:mm:ss"
         start-placeholder="开始日期" end-placeholder="结束日期">
       </el-date-picker>
-    </div>
+    </div> -->
     <div class="ww">
       <div class="box">大大</div>
       <div class="box">小小</div>

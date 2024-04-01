@@ -2,7 +2,6 @@
 
 <template>
   <div class="mainclass">
-    <!-- <trees></trees> -->
     <count></count>
     <count></count>
   </div>

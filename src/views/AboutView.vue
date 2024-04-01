@@ -20,7 +20,7 @@
       芳草萋萋鹦鹉洲
     </div>
     <el-button type="primary">点击</el-button>
-    <el-input v-model="message" clearable></el-input>
+    <!-- <el-input v-model="message" clearable></el-input> -->
   </div>
 </template>
 <script>

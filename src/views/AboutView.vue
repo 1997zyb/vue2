@@ -19,6 +19,7 @@
       晴川历历汉阳树
       芳草萋萋鹦鹉洲
     </div>
+    <el-button type="primary">点击</el-button>
   </div>
 </template>
 <script>

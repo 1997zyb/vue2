@@ -15,6 +15,10 @@
       <div class="box">小小</div>
       <span>白日依山尽</span>
     </div>
+    <div>
+      晴川历历汉阳树
+      芳草萋萋鹦鹉洲
+    </div>
   </div>
 </template>
 <script>

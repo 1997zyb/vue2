@@ -4,7 +4,6 @@
   <div class="mainclass">
     <count></count>
     <count></count>
-    123
   </div>
 </template>
   

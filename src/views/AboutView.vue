@@ -1,29 +1,18 @@
 <template>
   <div class="about">
-    <el-button type="primary">胜多负少</el-button>
     <div class="range">
-      <el-date-picker
-        v-model="showTabTime1"
-        type="datetimerange"
-        valueFormat="yyyy-MM-dd HH:mm:ss"
-        start-placeholder="开始日期"
-        end-placeholder="结束日期"
-      >
+      <el-date-picker v-model="showTabTime1" type="datetimerange" valueFormat="yyyy-MM-dd HH:mm:ss"
+        start-placeholder="开始日期" end-placeholder="结束日期">
       </el-date-picker>
     </div>
     <div class="range">
-      <el-date-picker
-        v-model="showTabTime2"
-        type="datetimerange"
-        valueFormat="yyyy-MM-dd HH:mm:ss"
-        start-placeholder="开始日期"
-        end-placeholder="结束日期"
-      >
+      <el-date-picker v-model="showTabTime2" type="datetimerange" valueFormat="yyyy-MM-dd HH:mm:ss"
+        start-placeholder="开始日期" end-placeholder="结束日期">
       </el-date-picker>
     </div>
     <div class="ww">
       <div class="box">大大</div>
-    <div class="box">小小</div>
+      <div class="box">小小</div>
     </div>
   </div>
 </template>
@@ -42,9 +31,11 @@ export default {
   ::v-deep .el-range-input::placeholder {
     color: #333;
   }
+
   .box {
     font-size: 20px;
   }
+
   .ww .box:first-of-type {
     color: red;
   }

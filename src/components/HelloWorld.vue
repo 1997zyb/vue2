@@ -1,6 +1,5 @@
 <template>
   <div class="dashboard-container">
-    <mavon-editor v-model="context" :toolbars="toolbars" />
   </div>
 </template>
 <script>

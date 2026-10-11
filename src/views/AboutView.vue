@@ -1,7 +1,8 @@
 <template>
   <div class="about">
     白日依山尽，黄河入海流。
-    两个黄鹂鸣翠柳，一行白鹭上青天。
+    欲穷千里目，更上一层楼。
+    这是古诗。
     <div class="range">
       <el-date-picker v-model="showTabTime1" type="datetimerange" valueFormat="yyyy-MM-dd HH:mm:ss"
         start-placeholder="开始日期" end-placeholder="结束日期">

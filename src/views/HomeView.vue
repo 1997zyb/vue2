@@ -4,6 +4,7 @@
   <div class="mainclass">
     <count></count>
     <count></count>
+    <count></count>
   </div>
 </template>
   
